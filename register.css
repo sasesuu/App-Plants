@@ -1,0 +1,36 @@
+body {
+font-family: verdana, sans-serif;
+}
+
+.bg-img {
+background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/plants1-1551895073.png?crop=1.00xw:1.00xh;0,0&resize=980:*");
+min-height: 680px;
+position: relative;
+background-size: cover;
+background-color: gray;
+background-blend-mode: screen;
+background-repeat: no-repeat;
+}
+
+form {
+     border: dotted gray 5px;
+}
+
+.container {
+    position: absolute;
+    background-color: white;
+    max-width: 330px;
+    padding: 16px;
+    margin: 20px;
+    right: 0;
+}
+
+.submit-button {
+    border: none;
+    min-width: 160px;
+    min-height: 30px;
+}
+a {
+    text-decoration: none;
+    color: rgba(255,0,0,0.521);
+}
